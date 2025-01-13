@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+} 
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+} 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5722;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+.nav .btn-primary {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}  
+.main-content {
+
+    padding: 50px 0;
+}
+.intro {
+    max-width: 600px;
+}  
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}  
+.intro p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}  
+.buttons {
+    margin-bottom: 30px;
+} 
+.buttons .btn-primary {
+    margin-right: 10px;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+}  
+.stats div {
+    text-align: center;
+}
+  
+.stats h2 {
+    font-size: 24px;
+    color: #ff5722;
+}
+.app-preview img {
+    max-width: 100%;
+    border-radius: 10px;
+    position: relative;
+    left: 700px;
+    bottom: 300px;
+    z-index: 0;
+
+}  
+.footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+}  
+.footer .icons span {
+    margin-right: 15px;
+    font-size: 14px;
+    color: #999;
+}
+.app-download{
+    max-width: 100%;
+    border-radius: 10px;
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+    z-index: 2;
+}
+  
